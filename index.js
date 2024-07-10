@@ -41,4 +41,33 @@
 
 
 // 4 - masala
+// const minWord = (n) => {
+//     let str = "men dasturlash kursida uqiyman"
+//     let min_word = ""
+//     let max_word = ""
+//     for(let i = 0; i < str.length; i++){
+        
+//             console.log(str[i]);
+        
+//     }
+// }
+// minWord(12)
+
+
+
+// 5 - masala
+// let str = ["text", "world", "laptop"] 
+// const object = () =>{
+//     let obj = {}
+//     for(let i = 0; i < str.length; i++){
+//         obj[str[i]] = str[i].length
+//     }
+//     console.log(obj);
+// }
+// object()
+
+
+
+
+// 6 - masala
 
