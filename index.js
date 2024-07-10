@@ -41,17 +41,29 @@
 
 
 // 4 - masala
-// const minWord = (n) => {
-//     let str = "men dasturlash kursida uqiyman"
-//     let min_word = ""
-//     let max_word = ""
-//     for(let i = 0; i < str.length; i++){
-        
-//             console.log(str[i]);
-        
+// let misol = "men dasturlash kursida uqiyman";
+// let natija = maxWord(misol);
+// function maxWord(str) {
+//     let sozlar = str.split(' ');
+//     let max_word = sozlar[0];
+//     let min_word = sozlar[0];
+//     for (let i = 1; i < sozlar.length; i++) {
+//         if (sozlar[i].length > max_word.length) {
+//             max_word = sozlar[i];
+//         }
+//         if (sozlar[i].length < min_word.length) {
+//             min_word = sozlar[i];
+//         }
 //     }
+
+//     return {
+//         engUzun: max_word,
+//         engKalta: min_word
+//     };
 // }
-// minWord(12)
+
+// console.log("Eng uzun so'z:", natija.engUzun); 
+// console.log("Eng kalta so'z:", natija.engKalta); 
 
 
 
@@ -83,10 +95,10 @@
 
 
 // 7 - masala
-const arfmetik = () => {
-    let arr = [1,2,3,4,5]
-    let result = arr.reduce((a,b)=> a + b, 0)
-    result /= arr.length 
-    console.log(result);
-}
-arfmetik()
+// const arfmetik = () => {
+//     let arr = [1,2,3,4,5]
+//     let result = arr.reduce((a,b)=> a + b, 0)
+//     result /= arr.length 
+//     console.log(result);
+// }
+// arfmetik()
