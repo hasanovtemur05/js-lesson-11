@@ -83,15 +83,10 @@
 
 
 // 7 - masala
-// const arfmetik = () => {
-//     let arr = [1,2,3,4,5]
-//     let result = arr.reduce((a,b)=> a + b, 0)
-//     for(let i = 0; i < arr.length; i++){ 
-
-//     }
-
-//     result /= arr.length 
-//     console.log(result);
-   
-// }
-// arfmetik()
+const arfmetik = () => {
+    let arr = [1,2,3,4,5]
+    let result = arr.reduce((a,b)=> a + b, 0)
+    result /= arr.length 
+    console.log(result);
+}
+arfmetik()
